@@ -648,6 +648,12 @@ transition: all 0.3S ease;
 width: 100%;
 display: block;
 }
+.portfolio .portfolio-item-inner .portfolio-img a
+{
+font-size: 20px;
+color: var(--text-black-900);
+
+}
 /* contact */
 
 .contact-title
