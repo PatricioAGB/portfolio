@@ -16,8 +16,9 @@
     <div class="main-container">
         <!-- aside start -->
         <div class="aside"> 
+            
             <div class="logo">
-                <a href=""><span>P</span>ortfolio</a>
+                <a class="padd-15" href=""><img class="acl" src="images/portfolio4.png" alt=""></a>
             </div>
             <div class="nav-toggler">
                 <span></span>
@@ -322,16 +323,24 @@
                     <div class="portfolio-item padd-15">
                         <div class="portfolio-item-inner shadow-dark">
                             <div class="portfolio-img">
-                                <img src="images/portfolio1.png" alt="">
-                                <a href="https://github.com/PatricioAGB/tienda"> github</a>
+                                <a href="https://github.com/PatricioAGB/tienda"><img src="images/portfolio1.png" alt=""></a>      
+                                <h3 style="color: white;">react</h3>                       
                             </div>
                         </div>
                     </div>
                     <div class="portfolio-item padd-15">
                         <div class="portfolio-item-inner shadow-dark">  
                             <div class="portfolio-img">
-                                <img src="images/portfolio2.png" alt="">
-                                <a href="https://github.com/PatricioAGB/mascotasv2"> github</a>
+                               <a href="https://github.com/PatricioAGB/mascotasv2"> <img src="images/portfolio2.png" alt=""></a>
+                               <h3 style="color: white;">Node.js</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner shadow-dark">  
+                            <div class="portfolio-img" >
+                                <img  src="images/portfolio3.png" alt="">
+                                <h3 style="color: white;">Apache nifi</h3>
                             </div>
                         </div>
                     </div>
@@ -372,24 +381,25 @@
                 <h3 class="contact-title padd-15">Enviame un correo </h3>
                 <h4 class="contact-sub-title padd-15">Estoy atento a los correos</h4>
                 <!-- contact form-->
+                <form action="https://formsubmit.co/patricioagonzalezb@gmail.com" method="post">
                 <div class="row">
                     <div class="contact-form padd-15">
                         <div class="row">
                             <div class="form-item col-6 padd-15">
                                 <div class="form-group">
-                                    <input type="text"class="form-control" placeholder="Nombre">
+                                    <input type="text" name ="nombre"class="form-control" placeholder="Nombre">
                                 </div>
                             </div>
                             <div class="form-item col-6 padd-15">
                                 <div class="form-group">
-                                    <input type="email"class="form-control" placeholder="Correo">
+                                    <input type="email"class="form-control" name="correo" placeholder="Correo">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-item col-12 padd-15">
                                 <div class="form-group">
-                                <input type="text"class="form-control" placeholder="Tema del correo">
+                                <input type="text"class="form-control" name="tema" placeholder="Tema del correo">
                                 </div>
                             </div>
                         </div>
@@ -397,17 +407,18 @@
                         <div class="row">
                             <div class="form-item col-12 padd-15">
                                 <div class="form-group">
-                                <textarea name="" class="form-control"  id=""placeholder="Mensaje"></textarea>
+                                <textarea name="" class="form-control" name="Mensaje" id=""placeholder="Mensaje"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-control  col-12 padd-15">
-                               <button href="mailto:Razer81368@gmail.com" type="submit" class="btn"> Enviar Correo</button>
+                               <button  type="submit" class="btn"> Enviar Correo</button>
                             </div>
                         </div>
                     </div>
                 </div>
+            </form>
               </div>
           </section>
           <!-- Contact Section end -->
